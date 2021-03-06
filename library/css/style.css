@@ -1,0 +1,122 @@
+@font-face{
+    font-family: Argenta;
+    src:url(../fonts/Argenta.otf);
+}
+@font-face{
+    font-family: FutuRound;
+    src:url(../fonts/a_futuraround.ttf);
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    margin:0;
+    height: 100%;
+}
+#wrap {
+   height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+.sp{
+top: 50px;
+left: 45px;
+position: absolute;
+}
+header {
+    position: relative;
+    top: 23px;
+    left: 150px;
+    text-align: left;
+    max-width: 500px;
+}
+header a {
+    font-family:Argenta;
+    font-weight: 800;
+    font-size: 250%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+}
+header p {
+    margin-top: 5px;
+}
+.line {
+    position: relative;
+    width: auto;
+    height: 25px;
+    left: 0px;
+    right: 0px;
+    top: 40px;
+    background: rgb(154,154,154);
+    background: linear-gradient(180deg, rgba(154,154,154,1) 0%, rgba(255,255,255,0) 41%);
+}
+ul {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    display: block;
+}
+ul li{
+    padding: 10px;
+    transition:all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    font-family:Argenta;
+    font-size: 160%;
+    text-decoration: none;
+    color:black;
+}
+li:hover{
+    box-shadow:
+    1px 1px  rgb(209, 132, 96),
+    2px 2px  rgb(209, 132, 96),
+    3px 3px  rgb(209, 132, 96),
+    4px 4px  rgb(209, 132, 96),
+    5px 5px  rgb(209, 132, 96),
+    6px 6px  rgb(209, 132, 96),
+    7px 7px  rgb(209, 132, 96);
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+  }
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    font-family:Argenta;
+    color:rgb(255, 255, 255);
+    background: rgb(209, 132, 96);
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    flex: 0 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    opacity: 0.6;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: rgba(209, 132, 96, 0.534);
+}
+::-webkit-scrollbar-thumb:hover
+ {
+    background: rgb(209, 132, 96);
+}
