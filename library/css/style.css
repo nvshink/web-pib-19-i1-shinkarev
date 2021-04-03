@@ -120,3 +120,31 @@ footer {
  {
     background: rgb(209, 132, 96);
 }
+<<<<<<< Updated upstream
+=======
+@media screen and (min-width: 576px){
+    header {
+        height: 125px;
+        min-height: 125px;
+    }
+    #sp{
+        width: 63px;
+        margin-top: 30px;
+    }
+    .header-text {
+        margin-top: 23px;
+        margin-left: 20px;
+    }
+    header a {
+        max-height: 63px;
+        font-size: 30px;
+    }
+    ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+        li {
+        margin: 0 0 0 20px;
+    }
+}
+>>>>>>> Stashed changes

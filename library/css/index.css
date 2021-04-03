@@ -38,6 +38,7 @@ display: inline-block;
 vertical-align: top;
 text-align: left;
 }
+<<<<<<< Updated upstream
 .Element
 {
 margin-left: 15px;
@@ -60,3 +61,32 @@ width: 190px;
   -webkit-transform: translateX(-7px);
   transform: translateX(-7px);
   }
+=======
+.element:hover{
+    transform: scale(0.9);
+}
+@media screen and (min-width: 576px){
+    .scroll-elements{
+    margin: 0 0 0 30px;
+    }
+    .name-scroll-block{
+        margin: 30px 0 10px 30px;
+    }
+}
+@media screen and (min-width: 992px){
+    .scroll-elements
+    {
+        width: 170px;
+        height: 190px;
+    }
+    .element
+    {
+        width: 170px;
+        height: 340px;
+    }
+    .scroll-element img{
+        width: 170px;
+        height: 266px;
+    }
+}
+>>>>>>> Stashed changes
