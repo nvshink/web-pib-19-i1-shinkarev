@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content span {
+    font-family: FutuRound, sans-serif;
+    font-size: 17px;
+}
+
+.scroll-elements {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.scroll-element {
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.element {
+    width: 240px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.element:hover {
+    transform: scale(0.9);
+}
+
+.element img {
+    width: 240px;
+    height: 360px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 576px) {
+    .scroll-elements {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .scroll-element{
+        margin: 30px 15px;
+    }
+}
