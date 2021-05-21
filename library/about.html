@@ -10,24 +10,25 @@
     <link rel="stylesheet" href="css/about.css">
 </head>
 
-<body>
+<body id="back">
     <header>
         <a href="index.html"><img src="content/sp.png" id="sp" alt=""></a>
         <div class="header-text">
-            <span><a href="index.html">Онлайн-библиотека</a></span>
-            <span><a href="index.html">Справедливая</a></span>
+            <span><a href="index.html" class="change-text">Онлайн-библиотека</a></span>
+            <span><a href="index.html" class="change-text">Справедливая</a></span>
         </div>
     </header>
     <hr>
     <nav>
         <ul>
-            <li><a href="about.html">О нас</a></li>
-            <li><a href="booklist.html">Все книги</a></li>
-            <li><a href="authorslist.html">Все авторы</a></li>
+            <li><a href="about.html" class="change-text">О нас</a></li>
+            <li><a href="booklist.html" class="change-text">Все книги</a></li>
+            <li><a href="authorslist.html" class="change-text">Все авторы</a></li>
+            <li><div id="button"></div></li>
         </ul>
     </nav>
     <div class="content">
-        <p>Данный веб-сайт сделан на некоммерческой основе в образовательных целях.
+        <p class="change-text">Данный веб-сайт сделан на некоммерческой основе в образовательных целях.
             Здесь вы можете найти имеющиеся в нашей онлайн-библиотеке книги, или просмотреть книги определённых
             авторов.
             Публикуются интересные материалы по книгам, например, цитата дня.
@@ -36,9 +37,10 @@
             книгой.</p>
         <div class="meme"></div>
     </div>
-    <footer>
+    <footer id="footer">
         Шинкарёв Никита ПИб-19И1&nbsp;&copy;&nbsp;2021
     </footer>
+    <script src="js/dark-style.js"></script>
 </body>
   
 </html>
