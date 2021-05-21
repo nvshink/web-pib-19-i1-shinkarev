@@ -39,7 +39,8 @@ h1, h2, .book-info {
     color: rgb(255, 255, 255);
     font-size: 22px;
 }
-#download img {
+#download-img {
+    background: url(../content/download_icon.png);
     height: 22px;
     width: 22px;
     margin-left: 10px;
@@ -47,11 +48,11 @@ h1, h2, .book-info {
 }
 .book-name h1 {
     text-align: center;
-    margin: 0 0 0 0;
+    margin: 0 5px 0 5px;
 }
 .book-name h2 {
     text-align: center;
-    margin: 0 0 0 0;
+    margin: 0 5px 0 5px;
 }
 .book-name h2 a {
     color: rgb(0, 0, 0);
@@ -71,7 +72,7 @@ h1, h2, .book-info {
 }
 .book-info hr {
     margin: 30px 0;
-    padding-bottom: 7px;
+    padding-bottom: 1px;
     border: 15px;
     border-radius: 10px;
     background: linear-gradient(90deg,  rgba(244,192,141,1) 0%, rgba(209,132,96,1) 100%);
